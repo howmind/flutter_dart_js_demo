@@ -59,13 +59,13 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'Tap the button to see a confirm box!',
             ),
-            //TextField(
-            //  decoration: InputDecoration(
-            //      labelText:
-            //          "I'll conver things to lowercase using JavaScript!"),
-            //  controller: _controller,
-            //),
-            //Text("camelCase text: ${camelCase.isNotEmpty ? camelCase : 'N/A'}"),
+            TextField(
+              decoration: InputDecoration(
+                  labelText:
+                      "I'll conver things to lowercase using JavaScript!"),
+              controller: _controller,
+            ),
+            Text("camelCase text: ${camelCase.isNotEmpty ? camelCase : 'N/A'}"),
           ],
         ),
       ),
